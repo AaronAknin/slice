@@ -1,0 +1,73 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.venv/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+*.out
+*.err
+
+# Byte-compiled, cache files
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Database
+*.sqlite3
+*.db
+
+# Testing
+coverage/
+.tox/
+.nox/
+*.cover
+*.coverage
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.egg
+*.egg-info/
+.eggs/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Distribution
+*.wheel
+*.egg
+*.whl
+
+# Static files
+staticfiles/
+media/
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+.env.*

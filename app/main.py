@@ -38,10 +38,10 @@ def extract_keywords(text):
 
 
 @app.post("/process")
-async def process_document(file_name: str):
+def process(file_name: str):
     try:
         # Fetch document from MinIO
-        response = minio_client.get_object("your-bucket-name", file_name)
+        response = minio_client.get_object("text-files", file_name)
         file_content = response.read().decode("utf-8")
 
         # Extract keywords
