@@ -55,7 +55,7 @@ cd containerized-data-processing
 The following environment variables are pre-configured in `docker-compose.yml`, but ensure they are correct if you make any adjustments:
 
 ```yaml
-MINIO_ENDPOINT=minio:9000
+MINIO_ENDPOINT=localhost:9000
 MINIO_ACCESS_KEY=minioadmin
 MINIO_SECRET_KEY=minioadmin
 POSTGRES_HOST=postgres
